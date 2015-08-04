@@ -6,7 +6,7 @@ MAINTAINER Spencer Rinehart <anubis@overthemonkey.com>
 ONBUILD ADD . /code
 
 # Install the dependencies
-ONBUILD RUN composer install
+ONBUILD RUN composer install --no-interaction
 
 # Override composer install CMD with one to execute the project
 CMD ["composer", "start"]
