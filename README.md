@@ -36,6 +36,10 @@ is installed via composer):
 docker run -it --rm my-image phpunit
 ```
 
+## License
+docker-composer-onbuild is licensed under the MIT license.  See
+[LICENSE](LICENSE) for the full license text.
+
 [PHP]: http://php.net/ "PHP: Hypertext Preprocessor"
 [composer]: https://getcomposer.org/
 [ONBUILD]: https://docs.docker.com/reference/builder/#onbuild
