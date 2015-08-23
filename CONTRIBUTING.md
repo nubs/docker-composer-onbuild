@@ -18,7 +18,7 @@ docker build --no-cache .
 
 ## Automated builds
 Merged code will be automatically built on docker hub at
-[nubs/composer-build][docker-hub-repository].
+[nubs/composer-onbuild][docker-hub-repository].
 
 [issues]: https://github.com/nubs/docker-composer-onbuild/issues
 [pull-requests]: https://github.com/nubs/docker-composer-onbuild/pulls
