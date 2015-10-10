@@ -37,10 +37,11 @@ docker run -it --rm my-image phpunit
 ```
 
 ## License
-docker-composer-onbuild is licensed under the MIT license.  See
-[LICENSE](LICENSE) for the full license text.
+docker-composer-onbuild is licensed under the MIT license.  See [LICENSE] for
+the full license text.
 
 [PHP]: http://php.net/ "PHP: Hypertext Preprocessor"
 [composer]: https://getcomposer.org/
 [ONBUILD]: https://docs.docker.com/reference/builder/#onbuild
 [composer-build]: https://github.com/nubs/docker-composer-build
+[LICENSE]: https://github.com/nubs/docker-composer-onbuild/blob/master/LICENSE
